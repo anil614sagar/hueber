@@ -1,0 +1,15 @@
+
+
+.profile_img  {
+    width: 100px;
+    padding-right: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.app-title {
+    display: inline-block;
+    width: 50%;
+}

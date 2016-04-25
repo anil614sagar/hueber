@@ -1,0 +1,30 @@
+{
+  "name": "huberapp",
+  "version": "0.0.1",
+  "description": "Uber integration with hue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hue",
+    "Uber",
+    "Api"
+  ],
+  "author": "Anil Sagar <anil614sagar@gmail.com> (https://in.linkedin.com/in/anilsagar/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "node-hue-api": "^2.2.0",
+    "passport": "^0.3.2",
+    "passport-oauth2": "^1.3.0",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
